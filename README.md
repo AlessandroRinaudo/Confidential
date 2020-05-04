@@ -1,2 +1,4 @@
-# secret forum
-Ce site doit servir aux entreprises (ou bien à les start-up) qui souhait se communiquer des informations confidentielles ne disposant pas de réseaux lan locaux. Ce genre de forum est conçu pour chiffrer toutes les données qui contient avec un algorithme dont la clé n'est connues que aux admin
+# LIRE ICI
+Ce site est presque totalement développé en utilisant le framework Symfony avant d'effectuer n'importe quel commit s'assurer bien d'avoir mise à jour la repository sur son ordinateur.
+
+PS contactez moi si vous voulez faire partie du projet secret forum ou proposez moi les personne qui en veut faire partie!!

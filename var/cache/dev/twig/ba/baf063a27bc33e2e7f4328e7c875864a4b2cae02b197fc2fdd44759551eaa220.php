@@ -79,89 +79,31 @@ class __TwigTemplate_639d6447a80ae1b3e746f232b32bab137e13dcbb3188adb01e6d0c1593e
     </div>
     <h1 style=\"text-align: center;margin-top: 30px\"> Tous les posts</h1>
     <div class=\"row\">
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
+        ";
+        // line 18
+        echo twig_include($this->env, $context, "pages/post.html.twig");
+        echo "
+        ";
+        // line 19
+        echo twig_include($this->env, $context, "pages/post.html.twig");
+        echo "
+        ";
+        // line 20
+        echo twig_include($this->env, $context, "pages/post.html.twig");
+        echo "
+        ";
+        // line 21
+        echo twig_include($this->env, $context, "pages/post.html.twig");
+        echo "
+        ";
+        // line 22
+        echo twig_include($this->env, $context, "pages/post.html.twig");
+        echo "
+        ";
+        // line 23
+        echo twig_include($this->env, $context, "pages/post.html.twig");
+        echo "
 
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
-
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
-
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
-
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
-
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
 
     </div>
 ";
@@ -185,7 +127,7 @@ class __TwigTemplate_639d6447a80ae1b3e746f232b32bab137e13dcbb3188adb01e6d0c1593e
 
     public function getDebugInfo()
     {
-        return array (  68 => 4,  58 => 3,  35 => 1,);
+        return array (  104 => 23,  100 => 22,  96 => 21,  92 => 20,  88 => 19,  84 => 18,  68 => 4,  58 => 3,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -207,89 +149,13 @@ class __TwigTemplate_639d6447a80ae1b3e746f232b32bab137e13dcbb3188adb01e6d0c1593e
     </div>
     <h1 style=\"text-align: center;margin-top: 30px\"> Tous les posts</h1>
     <div class=\"row\">
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
+        {{ include ('pages/post.html.twig') }}
+        {{ include ('pages/post.html.twig') }}
+        {{ include ('pages/post.html.twig') }}
+        {{ include ('pages/post.html.twig') }}
+        {{ include ('pages/post.html.twig') }}
+        {{ include ('pages/post.html.twig') }}
 
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
-
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
-
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
-
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
-
-        <div class=\" col-md-4\">
-            <div class=\"all-posts\">
-                <h3 style=\"text-align: center\">Titre du post</h3>
-                <h6>Auteur : <a href=\"#\">Alessandro Rinaudo</a></h6>
-                <h6>Catégorie : <a href=\"#\">Création interphace graphique</a></h6>
-                <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                    Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                </p>
-            </div>
-        </div>
 
     </div>
 {% endblock %}", "pages/home.html.twig", "/Users/alessandro/Documents/secret_forum/templates/pages/home.html.twig");

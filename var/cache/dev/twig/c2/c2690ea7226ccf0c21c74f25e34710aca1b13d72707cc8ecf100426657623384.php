@@ -803,6 +803,6 @@ class __TwigTemplate_0da86dc7362d6b74221bda1b4f06b93a6f753ced7e7b865b6cf5c41ea84
         </table>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/config.html.twig", "/Users/alessandro/Desktop/forum/secure_forum/vendor/symfony/web-profiler-bundle/Resources/views/Collector/config.html.twig");
+", "@WebProfiler/Collector/config.html.twig", "/Users/alessandro/Documents/secret_forum/vendor/symfony/web-profiler-bundle/Resources/views/Collector/config.html.twig");
     }
 }

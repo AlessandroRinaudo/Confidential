@@ -1706,6 +1706,6 @@ class __TwigTemplate_ed39d7e623c464fb061d2c2959058e03220fbcab917a54b78824937ab8c
     });
 
 /*]]>*/</script>
-", "@WebProfiler/Profiler/base_js.html.twig", "/Users/alessandro/Desktop/forum/secure_forum/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base_js.html.twig");
+", "@WebProfiler/Profiler/base_js.html.twig", "/Users/alessandro/Documents/secret_forum/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base_js.html.twig");
     }
 }

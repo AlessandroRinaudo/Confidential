@@ -345,7 +345,7 @@ class __TwigTemplate_5ace70c91fd7c2e11b48ac76300f3319a3d617e7ea27a73ec88454d4484
         if (0 === twig_compare("explain", (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 114, $this->source); })()))) {
             // line 115
             echo "        ";
-            echo $this->env->getRuntime('Symfony\Bridge\Twig\Extension\HttpKernelRuntime')->renderFragment(Symfony\Bridge\Twig\Extension\HttpKernelExtension::controller("DoctrineBundle:Profiler:explain", ["token" =>             // line 116
+            echo $this->env->getRuntime('Symfony\Bridge\Twig\Extension\HttpKernelRuntime')->renderFragment(Symfony\Bridge\Twig\Extension\HttpKernelExtension::controller("Doctrine\\Bundle\\DoctrineBundle\\Controller\\ProfilerController::explainAction", ["token" =>             // line 116
 (isset($context["token"]) || array_key_exists("token", $context) ? $context["token"] : (function () { throw new RuntimeError('Variable "token" does not exist.', 116, $this->source); })()), "panel" => "db", "connectionName" => twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source,             // line 118
 (isset($context["request"]) || array_key_exists("request", $context) ? $context["request"] : (function () { throw new RuntimeError('Variable "request" does not exist.', 118, $this->source); })()), "query", [], "any", false, false, false, 118), "get", [0 => "connection"], "method", false, false, false, 118), "query" => twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source,             // line 119
 (isset($context["request"]) || array_key_exists("request", $context) ? $context["request"] : (function () { throw new RuntimeError('Variable "request" does not exist.', 119, $this->source); })()), "query", [], "any", false, false, false, 119), "get", [0 => "query"], "method", false, false, false, 119)]));
@@ -1429,7 +1429,7 @@ class __TwigTemplate_5ace70c91fd7c2e11b48ac76300f3319a3d617e7ea27a73ec88454d4484
     {% set profiler_markup_version = profiler_markup_version|default(1) %}
 
     {% if 'explain' == page %}
-        {{ render(controller('DoctrineBundle:Profiler:explain', {
+        {{ render(controller('Doctrine\\\\Bundle\\\\DoctrineBundle\\\\Controller\\\\ProfilerController::explainAction', {
             token: token,
             panel: 'db',
             connectionName: request.query.get('connection'),
@@ -1843,6 +1843,6 @@ class __TwigTemplate_5ace70c91fd7c2e11b48ac76300f3319a3d617e7ea27a73ec88454d4484
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/Users/alessandro/Desktop/forum/secure_forum/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/Users/alessandro/Documents/secret_forum/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

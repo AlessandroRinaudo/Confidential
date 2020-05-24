@@ -6,3 +6,17 @@
     padding: 10px 40px;
     border-radius: 20px;
 }
+
+.liens-cliquables ,h6
+{
+    font-size: 15px !important;
+}
+
+h3
+{
+    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+
+}

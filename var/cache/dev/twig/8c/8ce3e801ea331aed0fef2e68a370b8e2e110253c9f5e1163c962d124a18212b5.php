@@ -57,7 +57,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
 
     <link rel = \"icon\" href =\"";
         // line 14
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logo2.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logo.png"), "html", null, true);
         echo "\" type = \"image/x-icon\">
     <link rel=\"stylesheet\" href=\"";
         // line 15
@@ -201,7 +201,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
     <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\" integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\" crossorigin=\"anonymous\"></script>
     <!-- boostrap  4.5.0 -->
 
-    <link rel = \"icon\" href =\"{{ asset('images/logo2.png') }}\" type = \"image/x-icon\">
+    <link rel = \"icon\" href =\"{{ asset('images/logo.png') }}\" type = \"image/x-icon\">
     <link rel=\"stylesheet\" href=\"{{ asset('css/style.css') }}\">
 </head>
 <body style=\" background :#bac0c5\" >

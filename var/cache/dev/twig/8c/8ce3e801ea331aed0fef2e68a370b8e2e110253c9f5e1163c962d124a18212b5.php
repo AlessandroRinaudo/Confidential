@@ -46,7 +46,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
 <html lang=\"fr\">
 <head>
     <meta charset=\"utf-8\">
-    <title>Secret Forum</title>
+    <title>Confidential</title>
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <!-- boostrap  4.5.0 -->
     <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\" integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\" crossorigin=\"anonymous\"></script>
@@ -55,19 +55,23 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
     <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\" integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\" crossorigin=\"anonymous\"></script>
     <!-- boostrap  4.5.0 -->
 
+    <!--    font        -->
+    <link href=\"https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap\" rel=\"stylesheet\">
+    <!--    font        -->
+
     <link rel = \"icon\" href =\"";
-        // line 14
+        // line 18
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logo.png"), "html", null, true);
         echo "\" type = \"image/x-icon\">
     <link rel=\"stylesheet\" href=\"";
-        // line 15
+        // line 19
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/style.css"), "html", null, true);
         echo "\">
 </head>
-<body style=\" background :#bac0c5\" >
+<body>
 <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top \">
     <a style=\"font-size: 15px;\"class=\"navbar-brand\" href=\"#\"><img style =\"width: 40%;\" src=\"";
-        // line 19
+        // line 23
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logo.png"), "html", null, true);
         echo "\" alt=\"\"></a>
     <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarText\" aria-controls=\"navbarText\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
@@ -96,12 +100,12 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
 </nav>
 <div class=\"container\">
     ";
-        // line 45
+        // line 49
         $this->displayBlock('body', $context, $blocks);
-        // line 46
+        // line 50
         echo "    ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 47
+        // line 51
         echo "</div>
 
 <!-- Footer -->
@@ -115,7 +119,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class=\"footer-copyright text-center py-3\" style=\"background-color: #343a40; color: #fff; height: 92px !important;padding: 50px auto !important;\">
+    <div class=\"footer-copyright text-center py-3\" style=\"background-color: #10161b ; color: #fff; height: 92px !important;padding: 50px auto !important;\">
         <p>© 2020 Copyright Confidential:</p>
         <a href=\"https://alessandrorinaudo.it/\" target=\"_blank\"> alessandrorinaudo.it</a>
     </div>
@@ -135,7 +139,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
 
     }
 
-    // line 45
+    // line 49
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -153,7 +157,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
 
     }
 
-    // line 46
+    // line 50
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -183,7 +187,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
 
     public function getDebugInfo()
     {
-        return array (  157 => 46,  139 => 45,  105 => 47,  102 => 46,  100 => 45,  71 => 19,  64 => 15,  60 => 14,  45 => 1,);
+        return array (  161 => 50,  143 => 49,  109 => 51,  106 => 50,  104 => 49,  75 => 23,  68 => 19,  64 => 18,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -192,7 +196,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
 <html lang=\"fr\">
 <head>
     <meta charset=\"utf-8\">
-    <title>Secret Forum</title>
+    <title>Confidential</title>
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <!-- boostrap  4.5.0 -->
     <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\" integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\" crossorigin=\"anonymous\"></script>
@@ -201,10 +205,14 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
     <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\" integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\" crossorigin=\"anonymous\"></script>
     <!-- boostrap  4.5.0 -->
 
+    <!--    font        -->
+    <link href=\"https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap\" rel=\"stylesheet\">
+    <!--    font        -->
+
     <link rel = \"icon\" href =\"{{ asset('images/logo.png') }}\" type = \"image/x-icon\">
     <link rel=\"stylesheet\" href=\"{{ asset('css/style.css') }}\">
 </head>
-<body style=\" background :#bac0c5\" >
+<body>
 <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top \">
     <a style=\"font-size: 15px;\"class=\"navbar-brand\" href=\"#\"><img style =\"width: 40%;\" src=\"{{ asset('images/logo.png') }}\" alt=\"\"></a>
     <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarText\" aria-controls=\"navbarText\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
@@ -247,7 +255,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class=\"footer-copyright text-center py-3\" style=\"background-color: #343a40; color: #fff; height: 92px !important;padding: 50px auto !important;\">
+    <div class=\"footer-copyright text-center py-3\" style=\"background-color: #10161b ; color: #fff; height: 92px !important;padding: 50px auto !important;\">
         <p>© 2020 Copyright Confidential:</p>
         <a href=\"https://alessandrorinaudo.it/\" target=\"_blank\"> alessandrorinaudo.it</a>
     </div>
@@ -258,6 +266,6 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
 
 </body>
 </html>
-", "base.html.twig", "/Users/alessandro/Documents/secret_forum/templates/base.html.twig");
+", "base.html.twig", "/Users/alessandro/Documents/Confidential/templates/base.html.twig");
     }
 }

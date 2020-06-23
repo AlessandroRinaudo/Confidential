@@ -43,14 +43,15 @@ class __TwigTemplate_db6cf0fbd37d1cbe283e057903dc598b250f4c7d3a02562fd85a69a1ff1
         echo "<div class=\" col-md-4\">
     <div class=\"all-posts\">
         <h3 style=\"text-align: center\">Titre du post</h3>
-        <h6>Auteur : <a class=\"liens-cliquables\" href=\"#\">Alessandro Rinaudo</a></h6>
-        <h6>Catégorie : <a class=\"liens-cliquables\" href=\"#\">Création interphace graphique</a></h6>
         <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
             Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
             Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
             Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
             Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
         </p>
+        <a href=\"#\" class=\"lire-la-suite\">Voir la suite</a>
+        <h6>Auteur : <a class=\"liens-cliquables\" href=\"#\">Alessandro Rinaudo</a></h6>
+        <h6>Catégorie : <a class=\"liens-cliquables\" href=\"#\">Création interphace graphique</a></h6>
     </div>
 </div>";
         
@@ -76,15 +77,16 @@ class __TwigTemplate_db6cf0fbd37d1cbe283e057903dc598b250f4c7d3a02562fd85a69a1ff1
         return new Source("<div class=\" col-md-4\">
     <div class=\"all-posts\">
         <h3 style=\"text-align: center\">Titre du post</h3>
-        <h6>Auteur : <a class=\"liens-cliquables\" href=\"#\">Alessandro Rinaudo</a></h6>
-        <h6>Catégorie : <a class=\"liens-cliquables\" href=\"#\">Création interphace graphique</a></h6>
         <p style=\"overflow: hidden;white-space: nowrap;text-overflow: ellipsis;\">
             Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
             Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
             Laboris nisi ut aliquip ex ea commodo consequat. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
             Laboris nisi uts dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
         </p>
+        <a href=\"#\" class=\"lire-la-suite\">Voir la suite</a>
+        <h6>Auteur : <a class=\"liens-cliquables\" href=\"#\">Alessandro Rinaudo</a></h6>
+        <h6>Catégorie : <a class=\"liens-cliquables\" href=\"#\">Création interphace graphique</a></h6>
     </div>
-</div>", "pages/post.html.twig", "/Users/alessandro/Documents/secret_forum/templates/pages/post.html.twig");
+</div>", "pages/post.html.twig", "/Users/alessandro/Documents/Confidential/templates/pages/post.html.twig");
     }
 }

@@ -174,6 +174,6 @@ class __TwigTemplate_db81cb9709de26ebbd156a6d4ee7fbbf5a6032fbae64ce4728088dfa79b
         {% endif %}
     </div>
 {% endblock %}
-", "@WebProfiler/Profiler/open.html.twig", "/Users/alessandro/Desktop/forum/secure_forum/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.html.twig");
+", "@WebProfiler/Profiler/open.html.twig", "/Users/alessandro/Documents/Confidential/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.html.twig");
     }
 }

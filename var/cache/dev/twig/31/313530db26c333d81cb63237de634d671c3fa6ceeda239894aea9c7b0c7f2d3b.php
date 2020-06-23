@@ -220,6 +220,6 @@ a.doc:hover {
     top: -7em;
     visibility: hidden;
 }
-", "@WebProfiler/Profiler/open.css.twig", "/Users/alessandro/Desktop/forum/secure_forum/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.css.twig");
+", "@WebProfiler/Profiler/open.css.twig", "/Users/alessandro/Documents/Confidential/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.css.twig");
     }
 }

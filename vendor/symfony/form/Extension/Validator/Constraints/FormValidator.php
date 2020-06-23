@@ -63,12 +63,15 @@ class FormValidator extends ConstraintValidator
             /** @var Constraint[] $constraints */
             $constraints = $config->getOption('constraints', []);
 
+            $hasChildren = $form->count() > 0;
+
+            if ($hasChildren && $form->isRoot()) {
+                $this->resolvedGroups = new \SplObjectStorage();
+            }
+
             if ($groups instanceof GroupSequence) {
                 // Validate the data, the form AND nested fields in sequence
                 $violationsCount = $this->context->getViolations()->count();
-                $fieldPropertyPath = \is_object($data) ? 'children[%s]' : 'children%s';
-                $hasChildren = $form->count() > 0;
-                $this->resolvedGroups = $hasChildren ? new \SplObjectStorage() : null;
 
                 foreach ($groups->groups as $group) {
                     if ($validateDataGraph) {
@@ -86,18 +89,15 @@ class FormValidator extends ConstraintValidator
                             // sequence recursively, thus some fields could fail
                             // in different steps without breaking early enough
                             $this->resolvedGroups[$field] = (array) $group;
-                            $validator->atPath(sprintf($fieldPropertyPath, $field->getPropertyPath()))->validate($field, $formConstraint);
+                            $fieldFormConstraint = new Form();
+                            $this->context->setNode($this->context->getValue(), $field, $this->context->getMetadata(), $this->context->getPropertyPath());
+                            $validator->atPath(sprintf('children[%s]', $field->getName()))->validate($field, $fieldFormConstraint);
                         }
                     }
 
                     if ($violationsCount < $this->context->getViolations()->count()) {
                         break;
                     }
-                }
-
-                if ($hasChildren) {
-                    // destroy storage at the end of the sequence to avoid memory leaks
-                    $this->resolvedGroups = null;
                 }
             } else {
                 if ($validateDataGraph) {
@@ -131,6 +131,20 @@ class FormValidator extends ConstraintValidator
                 foreach ($groupedConstraints as $group => $constraint) {
                     $validator->atPath('data')->validate($data, $constraint, $group);
                 }
+
+                foreach ($form->all() as $field) {
+                    if ($field->isSubmitted()) {
+                        $this->resolvedGroups[$field] = $groups;
+                        $fieldFormConstraint = new Form();
+                        $this->context->setNode($this->context->getValue(), $field, $this->context->getMetadata(), $this->context->getPropertyPath());
+                        $validator->atPath(sprintf('children[%s]', $field->getName()))->validate($field, $fieldFormConstraint);
+                    }
+                }
+            }
+
+            if ($hasChildren && $form->isRoot()) {
+                // destroy storage to avoid memory leaks
+                $this->resolvedGroups = new \SplObjectStorage();
             }
         } elseif (!$form->isSynchronized()) {
             $childrenSynchronized = true;
@@ -153,7 +167,7 @@ class FormValidator extends ConstraintValidator
             if ($childrenSynchronized) {
                 $clientDataAsString = is_scalar($form->getViewData())
                     ? (string) $form->getViewData()
-                    : \gettype($form->getViewData());
+                    : get_debug_type($form->getViewData());
 
                 $failure = $form->getTransformationFailure();
 
@@ -176,6 +190,7 @@ class FormValidator extends ConstraintValidator
             $this->context->setConstraint($formConstraint);
             $this->context->buildViolation($config->getOption('extra_fields_message', ''))
                 ->setParameter('{{ extra_fields }}', '"'.implode('", "', array_keys($form->getExtraData())).'"')
+                ->setPlural(\count($form->getExtraData()))
                 ->setInvalidValue($form->getExtraData())
                 ->setCode(Form::NO_SUCH_FIELD_ERROR)
                 ->addViolation();

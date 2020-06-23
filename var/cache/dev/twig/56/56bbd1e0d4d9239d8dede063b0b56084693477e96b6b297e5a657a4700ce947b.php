@@ -417,6 +417,6 @@ class __TwigTemplate_8a5e76500f2814844c703c2370305632aa0d73c078b542b7eb4909126ca
     });
 })();
 </script>
-", "@WebProfiler/Profiler/settings.html.twig", "/Users/alessandro/Desktop/forum/secure_forum/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/settings.html.twig");
+", "@WebProfiler/Profiler/settings.html.twig", "/Users/alessandro/Documents/Confidential/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/settings.html.twig");
     }
 }

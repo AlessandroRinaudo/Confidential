@@ -103,6 +103,7 @@ $catalogue = new MessageCatalogue('hu', array (
     'This form should not contain extra fields.' => 'Ez a mezőcsoport nem tartalmazhat extra mezőket.',
     'The uploaded file was too large. Please try to upload a smaller file.' => 'A feltöltött fájl túl nagy. Kérem, próbáljon egy kisebb fájlt feltölteni.',
     'The CSRF token is invalid. Please try to resubmit the form.' => 'Érvénytelen CSRF token. Kérem, próbálja újra elküldeni az űrlapot.',
+    'This value is not a valid HTML5 color.' => 'Ez az érték nem egy érvényes HTML5 szín.',
   ),
   'security' => 
   array (

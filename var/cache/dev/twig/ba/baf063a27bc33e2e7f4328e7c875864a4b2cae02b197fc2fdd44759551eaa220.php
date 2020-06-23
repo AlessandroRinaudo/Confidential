@@ -152,6 +152,6 @@ class __TwigTemplate_639d6447a80ae1b3e746f232b32bab137e13dcbb3188adb01e6d0c1593e
 
 
     </div>
-{% endblock %}", "pages/home.html.twig", "/Users/alessandro/Documents/secret_forum/templates/pages/home.html.twig");
+{% endblock %}", "pages/home.html.twig", "/Users/alessandro/Documents/Confidential/templates/pages/home.html.twig");
     }
 }

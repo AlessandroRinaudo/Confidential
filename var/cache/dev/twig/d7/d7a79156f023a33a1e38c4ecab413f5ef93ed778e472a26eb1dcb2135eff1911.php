@@ -171,6 +171,6 @@ class __TwigTemplate_bb8fe7586dc36b55a770d2699623e07f1c726e484de8cab22aa810cf4a9
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "/Users/alessandro/Desktop/forum/secure_forum/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "/Users/alessandro/Documents/Confidential/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

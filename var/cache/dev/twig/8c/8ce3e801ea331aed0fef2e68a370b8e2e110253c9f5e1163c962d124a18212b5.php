@@ -121,7 +121,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
     <!-- Copyright -->
     <div class=\"footer-copyright text-center py-3\" style=\"background-color: #10161b ; color: #fff; height: 92px !important;padding: 50px auto !important;\">
         <p>© 2020 Copyright Confidential:</p>
-        <a href=\"https://alessandrorinaudo.it/\" target=\"_blank\"> alessandrorinaudo.it</a>
+        <a href=\"https://alessandrorinaudo.com/\" target=\"_blank\"> alessandrorinaudo.com</a>
     </div>
     <!-- Copyright -->
 
@@ -257,7 +257,7 @@ class __TwigTemplate_01c127e1e8d2942d5a5977c805c6d7973617d7217e91ef85cba880225e8
     <!-- Copyright -->
     <div class=\"footer-copyright text-center py-3\" style=\"background-color: #10161b ; color: #fff; height: 92px !important;padding: 50px auto !important;\">
         <p>© 2020 Copyright Confidential:</p>
-        <a href=\"https://alessandrorinaudo.it/\" target=\"_blank\"> alessandrorinaudo.it</a>
+        <a href=\"https://alessandrorinaudo.com/\" target=\"_blank\"> alessandrorinaudo.com</a>
     </div>
     <!-- Copyright -->
 

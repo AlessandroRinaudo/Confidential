@@ -1,0 +1,22 @@
+
+
+{% block title 'Login' %}
+
+{% block body %}
+    <h1 style="margin-top: 80px"> Login</h1>
+
+   <form method="POST">
+       <div>
+           <label for="email">Email : </label> <br>
+           <input type="email" id ="email" name ="email" required autofocus>
+       </div>
+
+       <div>
+           <label for="password">Mot de passe : </label> <br>
+           <input type="password" id ="password" name ="password" required>
+       </div>
+
+       <input type="submit" value="Se connecter">
+   </form>
+
+{% endblock %}
